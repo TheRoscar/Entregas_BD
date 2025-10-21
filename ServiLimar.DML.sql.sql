@@ -1,4 +1,4 @@
-INSERT INTO Usuario (usuario_id, nombre, apellido, tipo_usuario, condiciones, ciudad_id, codigo_postal)
+INSERT INTO Usuario (usuario_id, nombre, apellido, tipo_usuario, condicion, ciudad_id, codigo_postal)
 VALUES
 (1, 'Laura', 'Gómez', 'Cliente', 'Embarazo', 1, '760001'),
 (2, 'Carlos', 'Pérez', 'Proveedor', 'Ninguna', 2, '110111'),
