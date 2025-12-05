@@ -41,7 +41,7 @@ docker run --name aerogalaxy -e POSTGRES_USER=aerogalaxy -e POSTGRES_PASSWORD=ae
 ### 3️⃣ Ejecución de comando para establecer el contenedor de pgAdmin
 
 ```bash
-docker run --rm -p 5050:80 --link servilimar:servilimar -e "PGADMIN_DEFAULT_EMAIL=usuario@aerogalaxy.com" -e "PGADMIN_DEFAULT_PASSWORD=galaxy#445" -d dpage/pgadmin4
+docker run --rm -p 5050:80 --link aerogalaxy:aerogalaxy -e "PGADMIN_DEFAULT_EMAIL=usuario@aerogalaxy.com" -e "PGADMIN_DEFAULT_PASSWORD=galaxy#445" -d dpage/pgadmin4
 ```
 
 ---
