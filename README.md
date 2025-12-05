@@ -89,8 +89,8 @@ docker ps -a
 Ejecutar en el **Query Tool**:
 
 ```sql
-SELECT * FROM usuario;
-SELECT * FROM empleado;
+SELECT * FROM public.nave;
+SELECT * FROM public.planeta;
 ```
 
 ---
